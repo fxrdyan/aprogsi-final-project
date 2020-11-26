@@ -269,3 +269,23 @@ footer {
 .img-3 {
   width: 70%;
 }
+
+
+.overlay {
+  background-color: #ffca098f;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.img:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+}
