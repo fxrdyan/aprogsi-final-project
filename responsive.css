@@ -14,8 +14,41 @@
   }
 }
 
+@media all and (max-width: 900px) {
+  .img-1, .img-4 {
+    width: 40%;
+  }
+  .img-2,
+  .img-3 {
+    width: 40%;
+  }
+  .content-wrapper {
+    max-width: 900px;
+    padding-left: 13%;
+}
+.row{
+  width: 100%;
+  max-width: 900px; 
+}
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .content-wrapper {
+    max-width: 670px;
+    padding-left: 3%;
+}
+  .row{
+    width: 100%;
+    max-width: 670px;
+  }
+  .img-1, .img-4 {
+    width: 100%;
+  }
+  .img-2,
+  .img-3 {
+    width: 100%;
+  }
   .lesson {
     width: 100%;
   }
