@@ -27,6 +27,7 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .top-wrapper {
@@ -216,7 +217,7 @@ footer {
 }
 
 .row {
-  width: 100%;
+  width: 102%;
   max-width: 1170px;
   margin: 10px 0;
   display: flex;
@@ -227,7 +228,10 @@ footer {
 .img {
   height: 50%;
   margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 15px 2px rgb(208 208 208);
 }
+
 
 .img-1{
   background: url('https://images.unsplash.com/photo-1422205512921-12dac7b3b603?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2255&q=80') no-repeat center center;
