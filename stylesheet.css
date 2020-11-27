@@ -20,14 +20,7 @@ main {
   height: 95vh;
   background-size: cover;
   background-position: center;
-}
-
-.model{
-	height:530px;
-	position:absolute;
-	bottom:40px;
-	left:80%;
-    transform: translateX(-75%);
+  max-width: 100%;
 }
 
 
@@ -156,6 +149,10 @@ header {
   font-size: 25px;
   padding: 21px 0;
   display:none;
+}
+
+span.fa.fa-bars.menu-icon {
+  display: none;
 }
 
 .heading {
