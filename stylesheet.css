@@ -140,15 +140,15 @@ header {
 
 .details{
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .details img{
-  width:100px;
-  height: 100px;
+  width:200px;
+  height: 200px;
   border-radius: 10px;
   overflow: hidden;
   object-fit: cover;
