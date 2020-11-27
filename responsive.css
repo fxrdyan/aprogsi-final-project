@@ -33,6 +33,12 @@
     top: 20%;
     text-align: center;
 }
+#team {
+  margin-top: 7%;
+}
+footer {
+  text-align: center;
+}
 }
 
 @media all and (max-width: 900px) {
@@ -59,6 +65,9 @@
     max-width: 670px;
     padding-left: 3%;
   }
+  #team {
+    margin-top: 125%;
+}
   .text-container {
     position: absolute;
     left: 13%;
