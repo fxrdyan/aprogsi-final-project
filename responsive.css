@@ -1,4 +1,14 @@
-/* Untuk Tablet */
+
+@media all and (min-width: 1000px) {
+  img.model {
+    position: absolute;
+    left: 34%;
+    bottom: 5%;
+    width: 62%;
+  }
+}
+
+
 @media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
@@ -12,6 +22,17 @@
   .heading h2 {
     font-size: 20px;
   }
+  .model {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+  }
+  .text-container {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    text-align: center;
+}
 }
 
 @media all and (max-width: 900px) {
@@ -32,12 +53,19 @@
 }
 }
 
-/* Untuk Smartphone */
+
 @media all and (max-width: 670px) {
   .content-wrapper {
     max-width: 670px;
     padding-left: 3%;
-}
+  }
+  .text-container {
+    position: absolute;
+    left: 13%;
+    width: 100%;
+    top: 26%;
+    text-align: center;
+  }
   .row{
     width: 100%;
     max-width: 670px;
@@ -52,7 +80,11 @@
   .lesson {
     width: 100%;
   }
-  
+  .model{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+  }
   
   .btn {
     width: 100%;
@@ -66,15 +98,17 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
   .header-right{
     display:  none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon{
     display:block;
   }
+
+  span.fa.fa-bars.menu-icon {
+    display: block;
+}
   
   .top-wrapper h1 {
     font-size: 24px;
@@ -85,4 +119,7 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .message-wrapper {
+    margin-top: 109%;
+}
 }
