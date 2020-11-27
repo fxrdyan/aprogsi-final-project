@@ -64,6 +64,7 @@ footer {
   .content-wrapper {
     max-width: 670px;
     padding-left: 3%;
+    height: 1160px;
   }
   #team {
     margin-top: 125%;
